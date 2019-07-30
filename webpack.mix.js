@@ -1,5 +1,7 @@
 const mix = require('laravel-mix');
 require('laravel-mix-tailwind');
+require('laravel-mix-imagemin');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -13,4 +15,5 @@ require('laravel-mix-tailwind');
 
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css')
+   .imagemin('public/images/*')
    .tailwind();

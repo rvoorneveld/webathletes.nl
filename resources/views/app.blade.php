@@ -130,7 +130,7 @@
             <p class="p-6 text-dark pb-12">Started mid 2019 as a freelancer, this portfolio is all about quality.</p>
             <div class="p-6 flex flex-wrap sm:flex-no-wrap mx-auto w-full lg:w-2/3">
                 <div class="w-full sm:w-1/2 rounded overflow-hidden shadow-lg hover:shadow-2xl mx-4">
-                    <img class="w-full" src="/images/portfolio/nikkischilders.png" alt="Nikki Schilders">
+                    <img class="w-full" src="/images/nikkischilders.jpg" alt="Nikki Schilders">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">
                             <a href="https://www.nikkischilders.be/" target="_blank">Nikki Schilders</a>
