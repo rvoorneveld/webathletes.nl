@@ -177,17 +177,17 @@
             <div class="flex flex-wrap lg:flex-no-wrap w-full xl:w-5/6 p-6 lg:p-12 mx-auto">
                 <div class="w-full lg:w-1/3 mb-12 lg:mb-0 lg:mr-12">
                 </div>
-                <div class="w-full lg:w-1/3 mb-12 lg:mb-0 lg:mr-12">
+                <div class="text-sm sm:text-base w-full lg:w-1/3 mb-12 lg:mb-0 lg:mr-12">
                     <h2 class="text-3xl pb-6 text-center lg:text-left">Contact</h2>
                     <div class="flex mb-2">
-                        <label class="pr-6 sm:pr-0 flex-none w-1/2 sm:flex-grow text-right sm:text-left text-gray-400">Telephone:</label>
-                        <a class="pl-6 sm:pl-0 text-left sm:text-right hover:text-highlight" href="tel:+32 468 047 774">
+                        <label class="flex-none w-1/3 sm:flex-grow text-right sm:text-left text-gray-400">Telephone:</label>
+                        <a class="pl-3 sm:pl-0 text-left sm:text-right hover:text-highlight" href="tel:+32 468 047 774">
                             +32 468 047 774
                         </a>
                     </div>
                     <div class="flex">
-                        <label class="pr-6 sm:pr-0 flex-none w-1/2 sm:flex-grow text-right sm:text-left text-gray-400">Email:</label>
-                        <a class="pl-6 sm:pl-0 text-left sm:text-right hover:text-highlight" href="mailto:rick@webathletes.nl">
+                        <label class="sm:pr-0 flex-none w-1/3 sm:flex-grow text-right sm:text-left text-gray-400">Email:</label>
+                        <a class="pl-3 sm:pl-0 text-left sm:text-right hover:text-highlight" href="mailto:rick@webathletes.nl">
                             rick@webathletes.nl
                         </a>
                     </div>
