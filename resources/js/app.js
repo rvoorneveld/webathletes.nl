@@ -10,8 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    let notification = document.querySelector('.notification');
+    let classNavigationLink = 'script-navigation-link',
+        classCloseNavigation = 'script-navigation-close';
+    document.querySelectorAll('.'+classNavigationLink).forEach(function($item) {
+        $item.addEventListener('click', function() {
+            document.querySelector('.'+classCloseNavigation).dispatchEvent(new MouseEvent('click'));
+        });
+    });
 
+    let notification = document.querySelector('.notification');
     if (null !== notification) {
         setTimeout(function () {
             notification.classList.add('hidden');
