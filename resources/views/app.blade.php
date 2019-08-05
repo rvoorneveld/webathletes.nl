@@ -29,7 +29,7 @@
         <header class="bg-gray-100 relative">
             <nav class="bg-gray-200 flex h-16 w-full z-10 fixed top-0">
                 <a class="flex-grow self-center text-xl sm:text-2xl ml-6 fixed z-10 lg:static lg:z-0 hover:text-highlight" title="Webathletes" href="/">Webathletes</a>
-                <ul class="w-full lg:w-auto my-32 lg:my-0 bg-gray-200 script-toggle self-center font-secundary lg:mr-12 hidden lg:block fixed lg:static">
+                <ul class="w-full lg:w-auto my-32 lg:my-0 bg-gray-200 script-toggle self-center font-secundary lg:mr-6 hidden lg:block fixed lg:static">
                     <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
                         <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="About" href="#about">About</a>
                     </li>
@@ -41,6 +41,9 @@
                     </li>
                     <li class="text-center lg:text-left block lg:inline py-3 lg:py-0">
                         <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Contact" href="#contact">Contact</a>
+                    </li>
+                    <li class="text-center lg:text-left block lg:inline py-3 lg:py-0 mb-3">
+                        <a class="script-navigation-link text-base sm:ml-6 font-secundary px-5 py-2 rounded text-white hover:text-white bg-black hover:bg-highlight" title="Start project" href="#letsdothis">Start project</a>
                     </li>
                 </ul>
                 <a id="script-toggle-button" class="script-navigation-close self-center lg:hidden mr-6 fixed right-0 z-10" href="javascript:void(0);">
