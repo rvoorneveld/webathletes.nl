@@ -275,7 +275,7 @@
                     </div>
                 </div>
                 <div class="w-full text-center mt-3 lg:mb-6">
-                    <input class="cursor-pointer rounded mx-auto px-12 py-4 bg-white text-highlight hover:bg-support hover:text-white" type="submit" value="Reserveren">
+                    <input class="cursor-pointer rounded mx-auto px-12 py-4 bg-white text-highlight hover:bg-support hover:text-white" type="submit" value="Start project">
                 </div>
             </form>
         @endcomponent
