@@ -128,10 +128,10 @@
                 <div class="w-full text-left mb-6 mx-6">
                     <div class="font-secundary font-hairline text-sm flex">
                         <span class="flex-grow">PHP</span>
-                        <span>92%</span>
+                        <span>87%</span>
                     </div>
                     <div class="w-full h-3 rounded-full bg-gray-200">
-                        <div class="w-11/12 h-3 rounded-full bg-highlight"></div>
+                        <div class="h-3 rounded-full bg-highlight" style="width: 87%"></div>
                     </div>
                 </div>
             </div>
