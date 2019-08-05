@@ -169,7 +169,7 @@
         <div class="p-6 py-16 bg-extradark text-gray-100 text-center sm:p-24 relative">
             <a id="contact" class="absolute top-0"></a>
             <h2 class="text-3xl">
-                I would <span class="hover:text-highlight">&hearts;</span> To Hear About Your Project
+                I would <span class="text-white hover:text-highlight">&hearts;</span> To Hear About Your Project
                 <a href="#letsdothis" class="mt-6 text-xl sm:ml-6 font-secundary px-5 py-2 border rounded text-white border-white hover:text-black hover:bg-white">Start&nbsp;Project</a>
             </h2>
         </div>
