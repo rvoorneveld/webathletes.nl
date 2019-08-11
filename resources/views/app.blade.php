@@ -29,23 +29,25 @@
         <header class="bg-gray-100 relative">
             <nav class="bg-gray-200 flex h-16 w-full z-10 fixed top-0">
                 <a class="flex-grow self-center text-xl sm:text-2xl ml-6 fixed z-10 lg:static lg:z-0 hover:text-highlight" title="Webathletes" href="/">Webathletes</a>
-                <ul class="w-full lg:w-auto my-32 lg:my-0 bg-gray-200 script-toggle self-center font-secundary lg:mr-6 hidden lg:block fixed lg:static">
-                    <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                        <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="About" href="#about">About</a>
-                    </li>
-                    <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                        <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Skills" href="#skills">Skills</a>
-                    </li>
-                    <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                        <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Portfolio" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="text-center lg:text-left block lg:inline py-3 lg:py-0">
-                        <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Contact" href="#contact">Contact</a>
-                    </li>
-                    <li class="text-center lg:text-left block lg:inline py-3 lg:py-0 mb-3">
-                        <a class="script-navigation-link text-base sm:ml-6 font-secundary px-5 py-2 rounded text-white hover:text-white bg-black hover:bg-highlight" title="Start project" href="#letsdothis">Start project</a>
-                    </li>
-                </ul>
+                <div class="w-full lg:w-auto bg-gray-200 script-toggle self-center hidden lg:block fixed bottom-0 lg:static h-full lg:h-auto">
+                    <ul class="my-64 lg:my-0 font-secundary lg:mr-6">
+                        <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
+                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="About" href="#about">About</a>
+                        </li>
+                        <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
+                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Skills" href="#skills">Skills</a>
+                        </li>
+                        <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
+                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Portfolio" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="text-center lg:text-left block lg:inline py-3 lg:py-0">
+                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Contact" href="#contact">Contact</a>
+                        </li>
+                        <li class="text-center lg:text-left block lg:inline py-3 lg:py-0 mb-3">
+                            <a class="script-navigation-link text-base sm:ml-6 font-secundary px-5 py-2 rounded text-white hover:text-white bg-black hover:bg-highlight" title="Start project" href="#letsdothis">Start project</a>
+                        </li>
+                    </ul>
+                </div>
                 <a id="script-toggle-button" class="script-navigation-close self-center lg:hidden mr-6 fixed right-0 z-10" href="javascript:void(0);">
                     <svg class="svg svg-hamburger" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
                     <svg class="hidden svg svg-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
