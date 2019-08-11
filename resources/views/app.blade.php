@@ -69,7 +69,7 @@
                         Now, 13 years later, I've worked my way up to Senior developer with Team Lead experience.
                     </p>
                     <p class="pb-6">
-                        In these 13 years, I've been competing in sports at the highest level. Travelled all over the world for my (other) passion. This thought me a lot about working in a team, perform under pressure and 100% dedication to achieve your goals.
+                        In these 13 years, I've been competing in sports at the highest level. Traveled all over the world for my (other) passion. This thought me a lot about working in a team, perform under pressure and 100% dedication to achieve your goals.
                     </p>
                 </div>
                 <div class="w-full mx-auto lg:w-1/2 max-w-sm rounded overflow-hidden shadow-xl hover:shadow-2xl m-6">
@@ -95,7 +95,7 @@
             <a id="skills" class="absolute top-0"></a>
             <h2 class="text-3xl sm:text-4xl pb-3"><span class="text-highlight">Skills</span> I'm proud of</h2>
             <p class="p-6 text-dark pb-12">
-                Satisfied about my current skills at this moment, but always looking for opportunities to improve myself.<br />My next challenge is becoming a <a class="underline hover:text-highlight" href="https://www.zend.com/en/services/certification/php-certification" target="_blank" title="Zend Certified Engineer">Zend Certified Engineer</a> by the end of 2019.</p>
+                Satisfied with my current skills at this moment, but always looking for opportunities to improve myself.<br />My next challenge is becoming a <a class="underline hover:text-highlight" href="https://www.zend.com/en/services/certification/php-certification" target="_blank" title="Zend Certified Engineer">Zend Certified Engineer</a> by the end of 2019.</p>
             <div class="p-6 flex flex-wrap lg:flex-no-wrap mx-auto w-full">
                 <div class="w-full text-left mb-6 mx-6">
                     <div class="font-secundary font-hairline text-sm flex">
@@ -141,7 +141,7 @@
         <div class="py-16 text-center relative">
             <a id="portfolio" class="absolute top-0"></a>
             <h2 class="text-3xl sm:text-4xl pb-3">Practise makes <span class="text-highlight">perfect</span></h2>
-            <p class="p-6 text-dark pb-12">Started mid 2019 as a freelancer, this portfolio is all about quality.</p>
+            <p class="p-6 text-dark pb-12">Started mid-2019 as a freelancer, this portfolio quality above quantity!</p>
             <div class="p-6 flex flex-wrap sm:flex-no-wrap mx-auto w-full lg:w-2/3">
                 <div class="w-full sm:w-1/2 rounded overflow-hidden shadow-lg hover:shadow-2xl mx-4">
                     <img class="w-full" src="/images/nikkischilders.jpg" alt="Nikki Schilders">
@@ -150,10 +150,10 @@
                             <a href="https://www.nikkischilders.be/" target="_blank">Nikki Schilders</a>
                         </div>
                         <p class="text-dark text-base">
-                            As a freelance fysiotherapist Nikki wanted to attract more clients via the website. We've put together a personal website where clients can book a session at designated times.
+                            As a freelance physiotherapist, Nikki wanted to attract more clients via the website. We've put together a personal website where clients can book a session at designated times.
                         </p>
                         <p class="text-dark text-base pt-6">
-                            Under the hood there's a CRM system to manage clients and appointments.
+                            Under the hood, there's a CRM system to manage clients and appointments.
                         </p>
                     </div>
                     <a href="https://github.com/rvoorneveld/nikkischilders.be" target="_blank" title="Go to source">
