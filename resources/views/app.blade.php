@@ -141,7 +141,7 @@
         <div class="py-16 text-center relative">
             <a id="portfolio" class="absolute top-0"></a>
             <h2 class="text-3xl sm:text-4xl pb-3">Practise makes <span class="text-highlight">perfect</span></h2>
-            <p class="p-6 text-dark pb-12">Started mid-2019 as a freelancer, this portfolio quality above quantity!</p>
+            <p class="p-6 text-dark pb-12">Started mid-2019 as a freelancer, this portfolio is quality above quantity!</p>
             <div class="p-6 flex flex-wrap sm:flex-no-wrap mx-auto w-full lg:w-2/3">
                 <div class="w-full sm:w-1/2 rounded overflow-hidden shadow-lg hover:shadow-2xl mx-4">
                     <img class="w-full" src="/images/nikkischilders.jpg" alt="Nikki Schilders">
