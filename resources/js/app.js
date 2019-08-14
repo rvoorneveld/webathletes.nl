@@ -21,8 +21,13 @@ document.addEventListener('DOMContentLoaded', function() {
     let notification = document.querySelector('.notification');
     if (null !== notification) {
         setTimeout(function () {
-            notification.classList.add('hidden');
-        }, 5000);
+            notification.style.top = 0;
+            notification.style.transition = '1s ease-in-out';
+            setTimeout(function () {
+                notification.style.top = '-10rem';
+                notification.style.transition = '.5s ease-out';
+            }, 5000);
+        }, 100);
     }
 
 });

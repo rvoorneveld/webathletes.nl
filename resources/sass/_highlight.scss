@@ -1,0 +1,19 @@
+.highlight {
+    transition: background-color .5s;
+    .highlight--button {
+        transition: background-color 1s;
+    }
+    .highlight--image {
+        filter: grayscale(100%);
+    }
+}
+.highlight:hover {
+    @apply bg-gray-200;
+    .highlight--button {
+        @apply bg-highlight;
+    }
+    .highlight--image {
+        transition: filter .5s;
+        filter: grayscale(0%);
+    }
+}
