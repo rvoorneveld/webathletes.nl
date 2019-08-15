@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    let classHidden = 'hidden',
-        classToggle = 'script-toggle',
-        idToggleButton = 'script-toggle-button';
-    document.getElementById(idToggleButton).addEventListener('click', function() {
-        this.querySelector('.svg-hamburger').classList.toggle(classHidden);
-        this.querySelector('.svg-close').classList.toggle(classHidden);
-        document.querySelectorAll(`.${classToggle}`).forEach(function(item) {
+    let classHamburger = 'script-hamburger',
+        classHamburgerToggle = 'script-hamburger-toggle',
+        classHidden = 'hidden',
+        classIsActive = 'is-active';
+    document.querySelector(`.${classHamburger}`).addEventListener('click', function() {
+        this.classList.toggle(classIsActive);
+        document.querySelectorAll(`.${classHamburgerToggle}`).forEach(function(item) {
             item.classList.toggle(classHidden);
         });
     });
