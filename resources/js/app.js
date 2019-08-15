@@ -10,11 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    let classNavigationLink = 'script-navigation-link',
-        classCloseNavigation = 'script-navigation-close';
-    document.querySelectorAll('.'+classNavigationLink).forEach(function($item) {
+    let classNavigationLink = 'script-navigation-link';
+    document.querySelectorAll(`.${classNavigationLink}`).forEach(function($item) {
         $item.addEventListener('click', function() {
-            document.querySelector('.'+classCloseNavigation).dispatchEvent(new MouseEvent('click'));
+            document.querySelector(`.${classHamburger}`).dispatchEvent(new MouseEvent('click'));
         });
     });
 
