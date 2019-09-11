@@ -47,11 +47,14 @@
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
                             <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Portfolio" href="#portfolio">Portfolio</a>
                         </li>
+                        <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
+                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Portfolio" href="#resume">Resume</a>
+                        </li>
                         <li class="text-center lg:text-left block lg:inline py-3 lg:py-0">
                             <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Contact" href="#contact">Contact</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline py-3 lg:py-0 mb-3">
-                            <a class="script-navigation-link text-base sm:ml-6 font-secundary px-5 py-2 rounded text-white hover:text-white bg-black hover:bg-highlight" title="Start project" href="#letsdothis">Start project</a>
+                            <a class="script-navigation-link text-base sm:ml-6 font-secundary px-5 py-2 rounded text-white hover:text-white bg-highlight hover:shadow-lg" title="Start project" href="#letsdothis">Start project</a>
                         </li>
                     </ul>
                 </div>
@@ -74,6 +77,7 @@
                     <p class="pb-6">
                         In these 13 years, I've been competing in sports at the highest level. Traveled all over the world for my (other) passion. This thought me a lot about working in a team, perform under pressure and 100% dedication to achieve your goals.
                     </p>
+                    <a class="text-base font-secundary px-5 py-2 rounded text-white hover:text-white bg-black hover:bg-highlight" title="Download resume" href="/storage/resume.pdf" target="_blank">Download resume</a>
                 </div>
                 <div class="highlight w-full mx-auto lg:w-1/2 max-w-sm rounded overflow-hidden shadow-xl hover:shadow-2xl m-6">
                     <img class="highlight--image mt-12 mx-auto w-32 h-32 rounded-full" src="/images/rick.jpg" alt="Rick Voorneveld">
@@ -171,6 +175,79 @@
                         <span class="highlight--button inline-block bg-support hover:bg-highlight text-white rounded-full my-2 px-2 py-2 text-xs sm:text-sm">#MYSQL</span>
                         <span class="highlight--button inline-block bg-support hover:bg-highlight text-white rounded-full my-2 px-2 py-2 text-xs sm:text-sm">#TAILWINDCSS</span>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-16 text-center relative">
+            <a id="resume" class="absolute top-0"></a>
+            <h2 class="text-3xl sm:text-4xl pb-3">My <span class="text-highlight">resume</span></h2>
+            <div class="p-6 pb-12">
+                <a class="text-base font-secundary mt-12 my-6 px-5 py-2 rounded text-white hover:text-white bg-black hover:bg-highlight" title="Download resume" href="/storage/resume.pdf" target="_blank">Download resume</a>
+            </div>
+            <div class="lg:mb-16 flex flex-wrap sm:flex-no-wrap w-full m-auto w-full lg:w-3/4">
+                <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
+                    <h3 class="text-1xl">Web developer <span class="text-highlight">@ Media Concepts</span></h3>
+                    <span class="font-mono text-highlight text-sm">2006 - 2015 (9 years)</span>
+                    <p class="text-base text-left pt-8">
+                        Web developer @ Media Concepts in Amsterdam. Together with my colleagues, I'm responsible for the realization, maintenance and further development of web-based applications for small, medium and large-sized companies.
+                    </p>
+                    <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
+                        <li>Zend Framework</li>
+                        <li>Subversion</li>
+                        <li>PHP 5.6</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
+                    <h3 class="text-1xl">Athlete <span class="text-highlight">@ Dutch korfball team</span></h3>
+                    <span class="font-mono text-highlight text-sm">2007 - 2013 (6 years)</span>
+                    <p class="text-base text-left pt-8">
+                        Athlete @ Dutch national korfball team with the corresponding A-status of the NOC-NSF. With the national korfball team, we made various trips around the world to promote korfball around the globe. I've played several big tournaments such as the European Championships, World Cup and World Games.
+                    </p>
+                    <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
+                        <li>Focus</li>
+                        <li>Working together</li>
+                        <li>Perform under pressure</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:mb-16 flex flex-wrap sm:flex-no-wrap w-3/4 m-auto w-full lg:w-3/4">
+                <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
+                    <h3 class="text-1xl">Web developer <span class="text-highlight">@ Hoteliers.com</span></h3>
+                    <span class="font-mono text-highlight text-sm">2015 - 2016 (2 years)</span>
+                    <p class="text-base text-left pt-8">
+                        Web developer @ Hoteliers.com in Amsterdam. In my role as a PHP programmer, I am responsible, along with my colleagues, for the product portfolio of Hoteliers.com. Dutch market leader in hotel booking software. The focus on own portfolio made it possible to zoom in on the quality of the product keeping maintainability at full focus.
+                    </p>
+                    <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
+                        <li>GIT</li>
+                        <li>PHP 7+</li>
+                        <li>Agile scrum</li>
+                    </ul>
+                </div>
+                <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
+                    <h3 class="text-1xl">Team Lead <span class="text-highlight">@ Hoteliers.com</span></h3>
+                    <span class="font-mono text-highlight text-sm">2016 - present day</span>
+                    <p class="text-base text-left pt-8">
+                        In addition to my work as Web developer @ Hoteliers.com, I'm the Team Lead of the Design and Development team. Responsible for safety, performance and user experience for all products in the Hoteliers.com portfolio.
+                    </p>
+                    <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
+                        <li>Continuous Integration</li>
+                        <li>Test Driven Development</li>
+                        <li>Laravel</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:mb-16 flex flex-wrap sm:flex-no-wrap w-3/4 m-auto w-full lg:w-3/4">
+                <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
+                    <h3 class="text-1xl">Owner <span class="text-highlight">@ Webathletes</span></h3>
+                    <span class="font-mono text-highlight text-sm">2019 - present day</span>
+                    <p class="text-base text-left pt-8">
+                        I started my own company to gain more experience as a freelancer. Focus on supplementing my skills and learning new techniques.
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 py-4 mx-4">
+
                 </div>
             </div>
         </div>
