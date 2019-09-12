@@ -186,28 +186,30 @@
             </div>
             <div class="lg:mb-16 flex flex-wrap sm:flex-no-wrap w-full m-auto w-full lg:w-3/4">
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
-                    <h3 class="text-1xl">Web developer <span class="text-highlight">@ Media Concepts</span></h3>
-                    <span class="font-mono text-highlight text-sm">2006 - 2015 (9 years)</span>
+                    <h3 class="text-1xl">Owner <span class="text-highlight">@ Webathletes</span></h3>
+                    <span class="font-mono text-highlight text-sm">2019 - present day</span>
                     <p class="text-base text-left pt-8">
-                        Web developer @ Media Concepts in Amsterdam. Together with my colleagues, I'm responsible for the realization, maintenance and further development of web-based applications for small, medium and large-sized companies.
+                        I started my own company to gain more experience as a freelancer. Focus on supplementing my skills and learning new techniques.
                     </p>
-                    <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
-                        <li>Zend Framework</li>
-                        <li>Subversion</li>
-                        <li>PHP 5.6</li>
-                        <li>MySQL</li>
-                    </ul>
+                    <p class="text-base text-left pt-8">
+                        Focus in 2019:
+                        <ul class="text-left text-highlight font-mono text-base list-disc list-inside">
+                            <li>Becoming a <a class="underline" href="http://www.zend.com/en/services/certification" target="_blank" title="Zend Certified Engineer">Zend Certified Engineer</a></li>
+                            <li>Learning <a class="underline" href="https://reactjs.org/" target="_blank" title="React">React</a></li>
+                        </ul>
+                    </p>
                 </div>
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
-                    <h3 class="text-1xl">Athlete <span class="text-highlight">@ Dutch korfball team</span></h3>
-                    <span class="font-mono text-highlight text-sm">2007 - 2013 (6 years)</span>
+                    <h3 class="text-1xl">Development Team Lead <span class="text-highlight">@ Hoteliers.com</span></h3>
+                    <span class="font-mono text-highlight text-sm">2016 - present day</span>
                     <p class="text-base text-left pt-8">
-                        Athlete @ Dutch national korfball team with the corresponding A-status of the NOC-NSF. With the national korfball team, we made various trips around the world to promote korfball around the globe. I've played several big tournaments such as the European Championships, World Cup and World Games.
+                        In addition to my work as Web developer @ Hoteliers.com, I'm the Team Lead of the Design and Development team. Responsible for safety, performance and user experience for all products in the Hoteliers.com portfolio.
                     </p>
                     <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
-                        <li>Focus</li>
-                        <li>Working together</li>
-                        <li>Perform under pressure</li>
+                        <li>Continuous Integration</li>
+                        <li>Test Driven Development</li>
+                        <li>Laravel</li>
+                        <li>Vue.js</li>
                     </ul>
                 </div>
             </div>
@@ -225,26 +227,31 @@
                     </ul>
                 </div>
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
-                    <h3 class="text-1xl">Team Lead <span class="text-highlight">@ Hoteliers.com</span></h3>
-                    <span class="font-mono text-highlight text-sm">2016 - present day</span>
+                    <h3 class="text-1xl">Athlete <span class="text-highlight">@ Dutch korfball team</span></h3>
+                    <span class="font-mono text-highlight text-sm">2007 - 2013 (6 years)</span>
                     <p class="text-base text-left pt-8">
-                        In addition to my work as Web developer @ Hoteliers.com, I'm the Team Lead of the Design and Development team. Responsible for safety, performance and user experience for all products in the Hoteliers.com portfolio.
+                        Athlete @ Dutch national korfball team with the corresponding A-status of the NOC-NSF. With the national korfball team, we made various trips around the world to promote korfball around the globe. I've played several big tournaments such as the European Championships, World Cup and World Games.
                     </p>
                     <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
-                        <li>Continuous Integration</li>
-                        <li>Test Driven Development</li>
-                        <li>Laravel</li>
-                        <li>Vue.js</li>
+                        <li>Focus</li>
+                        <li>Working together</li>
+                        <li>Perform under pressure</li>
                     </ul>
                 </div>
             </div>
             <div class="lg:mb-16 flex flex-wrap sm:flex-no-wrap w-3/4 m-auto w-full lg:w-3/4">
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
-                    <h3 class="text-1xl">Owner <span class="text-highlight">@ Webathletes</span></h3>
-                    <span class="font-mono text-highlight text-sm">2019 - present day</span>
+                    <h3 class="text-1xl">Web developer <span class="text-highlight">@ Media Concepts</span></h3>
+                    <span class="font-mono text-highlight text-sm">2006 - 2015 (9 years)</span>
                     <p class="text-base text-left pt-8">
-                        I started my own company to gain more experience as a freelancer. Focus on supplementing my skills and learning new techniques.
+                        Web developer @ Media Concepts in Amsterdam. Together with my colleagues, I'm responsible for the realization, maintenance and further development of web-based applications for small, medium and large-sized companies.
                     </p>
+                    <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
+                        <li>Zend Framework</li>
+                        <li>Subversion</li>
+                        <li>PHP 5.6</li>
+                        <li>MySQL</li>
+                    </ul>
                 </div>
                 <div class="w-full sm:w-1/2 py-4 mx-4">
 
