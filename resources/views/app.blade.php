@@ -68,7 +68,7 @@
             <h2 class="text-3xl sm:text-4xl pb-3"><span class="text-highlight">About</span> me</h2>
             <p class="p-6 text-dark pb-12">I'm a full-stack developer with an athletes mentality.</p>
             <div class="p-6 flex flex-wrap lg:flex-no-wrap m-auto w-full">
-                <div class="w-full lg:w-1/2 text-left sm:px-8 lg:px-16 lg:pt-8">
+                <div class="w-full lg:w-1/2 text-justify sm:px-8 lg:px-16 lg:pt-8">
                     <p class="pb-6">
                         My name is Rick Voorneveld, age 33, born in Amsterdam, Netherlands.
                         I've been working as a developer in Amsterdam for 13 years now, started as a Junior developer with enthusiasm and the will to become better.
@@ -156,10 +156,10 @@
                         <div class="font-bold text-xl mb-2">
                             <a href="https://www.nikkischilders.be/" target="_blank">Nikki Schilders</a>
                         </div>
-                        <p class="text-dark text-base">
+                        <p class="text-dark text-base text-justify">
                             As a freelance physiotherapist, Nikki wanted to attract more clients via the website. We've put together a personal website where clients can book a session at designated times.
                         </p>
-                        <p class="text-dark text-base pt-6">
+                        <p class="text-dark text-base text-justify pt-6">
                             Under the hood, there's a CRM system to manage clients and appointments.
                         </p>
                     </div>
@@ -188,7 +188,7 @@
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
                     <h3 class="text-1xl">Owner <span class="text-highlight">@ Webathletes</span></h3>
                     <span class="font-mono text-highlight text-sm">2019 - present day</span>
-                    <p class="text-base text-left pt-8">
+                    <p class="text-base text-justify pt-8">
                         I started my own company to gain more experience as a freelancer. Focus on supplementing my skills and learning new techniques.
                     </p>
                     <p class="text-base text-left pt-8">
@@ -202,7 +202,7 @@
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
                     <h3 class="text-1xl">Development Team Lead <span class="text-highlight">@ Hoteliers.com</span></h3>
                     <span class="font-mono text-highlight text-sm">2016 - present day</span>
-                    <p class="text-base text-left pt-8">
+                    <p class="text-base text-justify pt-8">
                         In addition to my work as Web developer @ Hoteliers.com, I'm the Team Lead of the Design and Development team. Responsible for safety, performance and user experience for all products in the Hoteliers.com portfolio.
                     </p>
                     <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
@@ -217,7 +217,7 @@
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
                     <h3 class="text-1xl">Web developer <span class="text-highlight">@ Hoteliers.com</span></h3>
                     <span class="font-mono text-highlight text-sm">2015 - 2016 (2 years)</span>
-                    <p class="text-base text-left pt-8">
+                    <p class="text-base text-justify pt-8">
                         Web developer @ Hoteliers.com in Amsterdam. In my role as a PHP programmer, I am responsible, along with my colleagues, for the product portfolio of Hoteliers.com. Dutch market leader in hotel booking software. The focus on own portfolio made it possible to zoom in on the quality of the product keeping maintainability at full focus.
                     </p>
                     <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
@@ -229,7 +229,7 @@
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
                     <h3 class="text-1xl">Athlete <span class="text-highlight">@ Dutch korfball team</span></h3>
                     <span class="font-mono text-highlight text-sm">2007 - 2013 (6 years)</span>
-                    <p class="text-base text-left pt-8">
+                    <p class="text-base text-justify pt-8">
                         Athlete @ Dutch national korfball team with the corresponding A-status of the NOC-NSF. With the national korfball team, we made various trips around the world to promote korfball around the globe. I've played several big tournaments such as the European Championships, World Cup and World Games.
                     </p>
                     <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
@@ -243,7 +243,7 @@
                 <div class="mb-6 lg:mb-0 w-full sm:w-1/2 py-4 mx-4 border-t-8 border-highlight">
                     <h3 class="text-1xl">Web developer <span class="text-highlight">@ Media Concepts</span></h3>
                     <span class="font-mono text-highlight text-sm">2006 - 2015 (9 years)</span>
-                    <p class="text-base text-left pt-8">
+                    <p class="text-base text-justify pt-8">
                         Web developer @ Media Concepts in Amsterdam. Together with my colleagues, I'm responsible for the realization, maintenance and further development of web-based applications for small, medium and large-sized companies.
                     </p>
                     <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
