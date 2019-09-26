@@ -39,19 +39,19 @@
                 <div id="navigation" class="w-full lg:w-auto bg-gray-200 script-hamburger-toggle self-center hidden lg:block fixed bottom-0 lg:static h-full lg:h-auto">
                     <ul class="my-64 lg:my-0 font-secundary lg:mr-6">
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="About" href="#about">About</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="About" href="#about">About</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Skills" href="#skills">Skills</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Skills" href="#skills">Skills</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Portfolio" href="#portfolio">Portfolio</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Portfolio" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Portfolio" href="#resume">Resume</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Portfolio" href="#resume">Resume</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline py-3 lg:py-0">
-                            <a class="script-navigation-link border-b-2 border-gray-200 hover:border-highlight text-xl lg:text-base" title="Contact" href="#contact">Contact</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Contact" href="#contact">Contact</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline py-3 lg:py-0 mb-3">
                             <a class="script-navigation-link text-base sm:ml-6 font-secundary px-5 py-2 rounded text-white hover:text-white bg-highlight hover:shadow-lg" title="Start project" href="#letsdothis">Start project</a>
@@ -102,7 +102,7 @@
             <a id="skills" class="absolute top-0"></a>
             <h2 class="text-3xl sm:text-4xl pb-3"><span class="text-highlight">Skills</span> I'm proud of</h2>
             <p class="p-6 text-dark pb-12">
-                Satisfied with my current skills at this moment, but always looking for opportunities to improve myself.<br />My next challenge is becoming a <a class="underline hover:text-highlight" href="https://www.zend.com/en/services/certification/php-certification" target="_blank" title="Zend Certified Engineer">Zend Certified Engineer</a> by the end of 2019.</p>
+                Satisfied with my current skills at this moment, but always looking for opportunities to improve myself.<br />My next challenge is becoming a <a class="link link--fancy link--fancy__inverse" href="https://www.zend.com/en/services/certification/php-certification" target="_blank" title="Zend Certified Engineer">Zend Certified Engineer</a> by the end of 2019.</p>
             <div class="p-6 flex flex-wrap lg:flex-no-wrap mx-auto w-full">
                 <div class="w-full text-left mb-6 mx-6">
                     <div class="font-secundary font-hairline text-sm flex">
@@ -194,8 +194,8 @@
                     <p class="text-base text-left pt-8">
                         Focus in 2019:
                         <ul class="text-left text-highlight font-mono text-base list-disc list-inside">
-                            <li>Becoming a <a class="underline" href="http://www.zend.com/en/services/certification" target="_blank" title="Zend Certified Engineer">Zend Certified Engineer</a></li>
-                            <li>Learning <a class="underline" href="https://reactjs.org/" target="_blank" title="React">React</a></li>
+                            <li>Becoming a <a class="link link--fancy" href="http://www.zend.com/en/services/certification" target="_blank" title="Zend Certified Engineer">Zend Certified Engineer</a></li>
+                            <li>Learning <a class="link link--fancy" href="https://reactjs.org/" target="_blank" title="React">React</a></li>
                         </ul>
                     </p>
                 </div>
