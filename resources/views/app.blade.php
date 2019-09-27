@@ -208,7 +208,7 @@
                     <ul class="text-left mt-8 text-highlight font-mono text-base list-disc list-inside">
                         <li>Continuous Integration</li>
                         <li>Test Driven Development</li>
-                        <li>Laravel</li>
+                        <li>Laravel Framework</li>
                         <li>Vue.js</li>
                     </ul>
                 </div>
