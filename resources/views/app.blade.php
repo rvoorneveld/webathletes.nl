@@ -39,19 +39,19 @@
                 <div id="navigation" class="w-full lg:w-auto bg-gray-200 script-hamburger-toggle self-center hidden lg:block fixed bottom-0 lg:static h-full lg:h-auto">
                     <ul class="my-64 lg:my-0 font-secundary lg:mr-6">
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="About" href="#about">About</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="About" href="javascript:;" data-section="about">About</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Skills" href="#skills">Skills</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Skills" href="javascript:;" data-section="skills">Skills</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Portfolio" href="#portfolio">Portfolio</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Portfolio" href="javascript:;" data-section="portfolio" >Portfolio</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline lg:mr-8 py-3 lg:py-0">
-                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Portfolio" href="#resume">Resume</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Resume" href="javascript:;" data-section="resume">Resume</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline py-3 lg:py-0">
-                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Contact" href="#contact">Contact</a>
+                            <a class="script-navigation-link link link--nav link--fancy text-xl lg:text-base" title="Contact" href="javascript:;" data-section="contact">Contact</a>
                         </li>
                         <li class="text-center lg:text-left block lg:inline py-3 lg:py-0 mb-3">
                             <a class="script-navigation-link text-base sm:ml-6 font-secundary px-5 py-2 rounded text-white hover:text-white bg-highlight hover:shadow-lg" title="Start project" href="#letsdothis">Start project</a>
