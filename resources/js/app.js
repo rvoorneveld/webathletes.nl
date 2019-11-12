@@ -12,8 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let classNavigationLink = 'script-navigation-link';
     document.querySelectorAll(`.${classNavigationLink}`).forEach(function($item) {
-        $item.addEventListener('click', function() {
+        $item.addEventListener('click', function($clickedItem) {
             document.querySelector(`.${classHamburger}`).dispatchEvent(new MouseEvent('click'));
+            document.querySelector(`#${$item.getAttribute('data-section')}`).scrollIntoView({
+                behavior: 'smooth'
+            });
         });
     });
 
