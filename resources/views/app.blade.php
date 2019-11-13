@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        @if ('production' === config('app.env'))
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120639127-2"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-120639127-2');
-            </script>
-        @endif
+        <script src="//www.google.com/recaptcha/api.js?render={{ $recaptchaSiteKey = config('recaptcha.site') }}"></script>
+        <script>
+            grecaptcha.ready(function() {
+                grecaptcha.execute('{{ $recaptchaSiteKey }}', {
+                    action: 'homepage',
+                }).then(function(token) {
+                    document.querySelector('#script-recaptcha-token').value = token;
+                });
+            });
+        </script>
+    @if ('production' === config('app.env'))
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120639127-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-120639127-2');
+        </script>
+    @endif
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Webathletes - Full-Stack Development</title>
@@ -22,6 +32,15 @@
                 <p class="font-bold">Request sent successfully</p>
                 <p class="text-sm relative">
                     Thanks for sharing some insights into your project! #letsdothis
+                </p>
+            @endcomponent
+        @endif
+
+        @if (Session::has('error.project.lead'))
+            @component('notification', ['type' => 'error',])
+                <p class="font-bold">Could not complete your request</p>
+                <p class="text-sm relative">
+                    Sorry! Your request couldn't be completed. Please try again later!
                 </p>
             @endcomponent
         @endif
@@ -314,6 +333,7 @@
             @endif
             <form class="w-full" method="post" action="{{ route('project') }}#letsdothis">
                 {{ csrf_field() }}
+                <input id="script-recaptcha-token" type="hidden" name="recaptcha" value="">
                 <div class="flex flex-wrap -mx-3 mb-0 lg:mb-6">
                     <div class="w-full md:w-1/2 px-3">
                         <label class="block tracking-wide text-white text-base mb-1" for="name">
